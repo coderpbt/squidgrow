@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import React from 'react';
 import dex from '../../public/images/dex.svg';
 import eth from '../../public/images/eth.svg';
 import Image from 'next/image';
