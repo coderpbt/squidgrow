@@ -13,11 +13,11 @@ const Header = () => {
   return (
     <header className='py-6 relative'>
       <div className='custom-container flex justify-between items-center'>
-        <Link href='/'>
+        <Link className='outline-none' href='/'>
           <Image src={logo} alt='logo' width={250} />
         </Link>
 
-        <nav className='hidden md:block'>
+        <nav className='hidden lg:block'>
           <ul className='flex gap-8 items-center'>
             <li className='mr-8'><Link href='/' className='text-lg font-semibold font-atyp-text hover:opacity-90'>Utilities</Link></li>
             <li className='mr-8'><Link href='/about' className='text-lg font-semibold font-atyp-text'>About</Link></li>
@@ -41,7 +41,7 @@ const Header = () => {
         </nav>
 
         <button
-          className='md:hidden z-50'
+          className='lg:hidden z-50'
           onClick={handleToggle}
           aria-label='Toggle menu'
         >

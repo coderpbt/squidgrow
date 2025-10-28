@@ -114,4 +114,9 @@
   }
 }
 
+@media all and (max-width: 991px) {
+  .custom_video{
+    left: 0 !important;
+  }
+}
 

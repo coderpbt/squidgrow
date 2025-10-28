@@ -5,15 +5,17 @@ const Footer = () => {
   return (
       <div className="overflow-hidden py-14 bg-[#0d0d0d]">
         <div className='custom-container'>
-            <div className="grid grid-cols-[8fr_2fr_2fr]">
+            <div className="grid grid-cols-[8fr_2fr_2fr] max-md:grid-cols-1">
               <div>
+                <Link className='outline-none' href='/'>
                   <Image 
                     src='/images/logo.png'
                     alt="signature"
                     width={231}
                     height={0}
                   />
-                   <p className='text-secondary font-normal text-sm leading-7 py-10 mt-16 w-[28%]'>SquidGrow is the ultimate secure utility token. Our goal is to rise to the top, providing unparalleled security for your investment.</p>                
+                </Link>
+                   <p className='text-secondary font-normal text-sm leading-7 py-10 mt-16 w-[28%] max-lg:w-[50%]'>SquidGrow is the ultimate secure utility token. Our goal is to rise to the top, providing unparalleled security for your investment.</p>                
               </div>
               <div className="flex justify-center gap-7">
                 <div>
