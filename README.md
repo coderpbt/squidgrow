@@ -1,20 +1,7 @@
 # SquidGrow Landing Page  
 📍 [Live Demo](https://squidgrow-psi.vercel.app/)
 
-## 🧩 Table of Contents  
-- [Project Overview](#project-overview)  
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-  - [Running Locally](#running-locally)  
-  - [Building for Production](#building-for-production)  
-- [Project Structure](#project-structure)  
-- [Deployment](#deployment)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)
+
 
 ---
 
