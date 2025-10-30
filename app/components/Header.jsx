@@ -19,9 +19,9 @@ const Header = () => {
 
         <nav className='hidden lg:block'>
           <ul className='flex gap-8 items-center'>
-            <li className='mr-8'><Link href='/' className='text-lg font-semibold font-atyp-text hover:opacity-90'>Utilities</Link></li>
-            <li className='mr-8'><Link href='/about' className='text-lg font-semibold font-atyp-text'>About</Link></li>
-            <li className='mr-8'><Link href='/press' className='text-lg font-semibold font-atyp-text'>Press</Link></li>
+            <li className='mr-8'><Link href='#' className='text-lg font-semibold font-atyp-text hover:opacity-90'>Utilities</Link></li>
+            <li className='mr-8'><Link href='#' className='text-lg font-semibold font-atyp-text'>About</Link></li>
+            <li className='mr-8'><Link href='#' className='text-lg font-semibold font-atyp-text'>Press</Link></li>
             <li className='mr-8'>
               <form className='relative'>
                 <Search size={20} className='absolute bottom-1.5 left-0' />
@@ -30,7 +30,7 @@ const Header = () => {
               </form>
             </li>
             <li>
-              <Link href='/join' className=''>
+              <Link href='#' className=''>
                 <div className='flex items-center gap-2 py-5 px-6 font-semibold text-[14px] font-atyp-text bg-primary rounded-[50px]'>
                   <Image src={envolpe} alt='envolpe'  />
                    <div> Join the community</div>                  
@@ -55,10 +55,10 @@ const Header = () => {
           }`}
         >
           <ul className='flex flex-col gap-6 mt-20'>
-            <li><Link href='/' onClick={handleToggle}>Utilities</Link></li>
-            <li><Link href='/about' onClick={handleToggle}>About</Link></li>
-            <li><Link href='/press' onClick={handleToggle}>Press</Link></li>
-            <li><Link href='/join' onClick={handleToggle}>Join the community</Link></li>
+            <li><Link href='#' onClick={handleToggle}>Utilities</Link></li>
+            <li><Link href='#' onClick={handleToggle}>About</Link></li>
+            <li><Link href='#' onClick={handleToggle}>Press</Link></li>
+            <li><Link href='#' onClick={handleToggle}>Join the community</Link></li>
           </ul>
         </div>
       </div>
